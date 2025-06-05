@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title><%= title %></title>
+  <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="/stylesheets/style.css" />
+
+  <!-- Google Font: Playfair Display -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+
+  <script src="https://public.flourish.studio/resources/embed.js"></script>
+  <style>
+    .flourish-container {
+      margin-bottom: 2rem;
+    }
+    .graph-info {
+      display: none;
+      margin-top: 1rem;
+    }
+  </style>
+</head>
+<body class="container mt-5">
+
+  <!-- Hero Section -->
+  <div class="hero-section text-center">
+    <h1 class="text-primary mb-3">
+      A Taste of the Skies:<br>
+      Exploring Airline Meal Diversity Over Enschede
+    </h1>
+    <p class="text-secondary">
+      (Yes, Dutch airline food continues to disappoint)<br>
+      <p class="text-tertiary">
+      ("Even in the sky" - Ana)
+    </p>
+    <h1 class="text-primary mb-1"></h1>
+    <p class="lead">
+      Each day, a wide array of aircraft traverse the skies above Enschede, carrying not only passengers but a rich tapestry of cultures, 
+      cuisines, and national identities. This project dives into the hidden stories behind those flights — from the most common airlines 
+      passing overhead, to the meals they serve, their countries of origin, and the types of food offered onboard. 
+      By visualizing this data, we uncover how Enschede’s skies reflect a vibrant mix of international travel and taste.
+    </p>
+    <p class="sub-text">
+      Made by: Ana Antohi, Juliette Gelderland, Andrea Otero Arraez, Claudia Huanca Armaza
+    </p>
+  </div>
+
+  <hr class="section-divider">
+
+  <!-- Row 1: Graph on left, text on right -->
+  <div class="row align-items-center mb-5 section-alt">
+    <div class="col-md-7">
+      <div class="flourish-container">
+        <div class="flourish-embed flourish-hierarchy" data-src="visualisation/23562391"></div>
+      </div>
+    </div>
+    <div class="col-md-5">
+      <h4 class="info-heading">Who's Flying — and What's Cooking?</h4>
+      <p class="info-text">
+        Ever looked up and wondered who's flying overhead — and what’s being served onboard? 
+        This packed bubble chart reveals the countries and airlines most frequently flying over Enschede, 
+        along with the meals they offer. Click through each layer: from country → airline → food category → specific dish — 
+        and uncover the culinary story behind the skies.
+      </p>
+    </div>
+  </div>
+
+  <hr class="section-divider">
+
+  <!-- Row 2: Text on left, graph on right -->
+  <div class="row align-items-center mb-5 section-alt">
+    <div class="col-md-7 order-md-2">
+      <div class="flourish-container">
+        <div class="flourish-embed flourish-map" data-src="visualisation/23562757"></div>
+      </div>
+    </div>
+    <div class="col-md-5 order-md-1">
+      <h4 class="info-heading">Global Tastes at Cruising Altitude</h4>
+      <p class="info-text">
+        This chart uncovers which countries' airlines are most likely to serve which category of meals. 
+        By linking meal descriptions to airline origins, we get a glimpse into culinary preferences across borders – 
+        revealing who’s bringing poultry and who's bringing fish to the skies above Enschede.
+      </p>
+    </div>
+  </div>
+
+  <hr class="section-divider">
+
+<!-- Row 3: Graph on left, text on right -->
+<div class="row align-items-center mb-5 section-alt">
+  <div class="col-md-7">
+    <div class="flourish-container">
+      <div class="flourish-embed flourish-chart" data-src="visualisation/23563393"></div>
+    </div>
+  </div>
+  <div class="col-md-5">
+    <h4 class="info-heading">Sky-High Pricing: Comparing In-Flight Meal Costs by Country</h4>
+    <p class="info-text">
+      Meals at 30,000 feet can range from budget bites to premium plates. 
+      This graph compares airline meal prices, highlighting how different airlines approach in-flight catering costs.
+    </p>
+  </div>
+</div>
+
+
